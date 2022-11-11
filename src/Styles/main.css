@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'FiraCode';
+    src: url('../assets/fonts/FiraCode-VF.ttf');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Spartan';
+    src: url('../assets/fonts/Spartan-ExtraBold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Spartan';
+    src: url('../assets/fonts/Spartan-Regular.ttf');
+    font-weight: normal;
+}
+body{
+    background-color:#282A36;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.box-app{
+    display:grid;
+    grid-template-columns: 50px 1fr;
+}

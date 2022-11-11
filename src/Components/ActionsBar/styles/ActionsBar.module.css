@@ -1,0 +1,11 @@
+.actionsbar{
+    height: calc(100vh - 45px);
+    width: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    color: #747474;
+    font-size: 38px;
+    gap: 10px;
+}

@@ -1,0 +1,19 @@
+.tabs{
+    width: 100%;
+    height: fit-content;
+}
+.tabs ul{
+    height: 100%;
+    display: flex;
+    gap: 5px;
+}
+.tabs ul li{
+    padding: 5px 10px;
+    user-select: none;
+    font-family: 'Spartan';
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+}
+.active-tab{
+    border-bottom: 3px solid rgb(151, 35, 35);
+}
